@@ -1,4 +1,4 @@
-#rlhitboxes - Rocket League Hitboxes
+# rlhitboxes - Rocket League Hitboxes
 
 This is a simple set of JSON, JavaScript, HTML and CSS to generate a table of Which Rocket League car has which hitbox.  
 
