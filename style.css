@@ -1,0 +1,23 @@
+body {
+	background: #dddddd;
+	color:black;
+	margin:0;
+	padding:20px 0;
+	-webkit-font-smoothing: antialiased; 
+	font: 10pt/15pt "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; 
+	-webkit-font-smoothing: antialiased; */
+}
+
+
+h1 {
+	text-align: center;
+}
+
+#description {
+	text-align: center;
+}
+
+#hitboxes_wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
