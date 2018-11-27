@@ -4,84 +4,26 @@
 		<title>Rocket League Hitboxes</title>
 		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
-  
-		<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 
 		<script>
 			$(document).ready( function () {
-    				$('#hitboxes').DataTable();
-			} );
+				$.getJSON("hitboxes.json", function(result){
+						$.each(result, function(i, field){
+							$("table").append(field + " ");
+						});
+				});
+    				// $('#hitboxes').DataTable();
+			});
 		</script>
 	</head>
 	<body>
 		<h1>Rocket League Hitboxes</h1>
 		<p id="description">This table shows which car has which hitbox.</p>
 		<table id="hitboxes" class="display" style="width: 75%">
-			<thead><th>Model</th><th>Hitbox</th></thead>
-			<tbody>
-			<tr><td>Octane</td><td>Octane</td></tr>
-			<tr><td>Octane ZSR</td><td>Octane</td></tr>
-			<tr><td>Takumi</td><td>Octane</td></tr>
-			<tr><td>Takumi RX-T</td><td>Octane</td></tr>
-			<tr><td>Marauder</td><td>Octane</td></tr>
-			<tr><td>Scarab</td><td>Octane</td></tr>
-			<tr><td>Merc</td><td>Octane</td></tr>
-			<tr><td>Backfire</td><td>Octane</td></tr>
-			<tr><td>Road Hog</td><td>Octane</td></tr>
-			<tr><td>Road Hog XL</td><td>Octane</td></tr>
-			<tr><td>Gizmo</td><td>Octane</td></tr>
-			<tr><td>Proteus</td><td>Octane</td></tr>
-			<tr><td>Triton</td><td>Octane</td></tr>
-			<tr><td>Grog</td><td>Octane</td></tr>
-			<tr><td>Zippy</td><td>Octane</td></tr>
-			<tr><td>Bone Shaker</td><td>Octane</td></tr>
-			<tr><td>Vulcan</td><td>Octane</td></tr>
-			<tr><td>Hogsticker</td><td>Octane</td></tr>
-			<tr><td>Armadillo</td><td>Octane</td></tr>
-			<tr><td>Delorean</td><td>Octane</td></tr>
-			<tr><td>Mario</td><td>Octane</td></tr>
-			<tr><td>Luigi</td><td>Octane</td></tr>
-			<tr><td>Twinzer</td><td>Octane</td></tr>
-			<tr><td>Tumbler</td><td>Octane</td></tr>
-			<tr><td>Jurassic Jeep</td><td>Octane</td></tr>
-			<tr><td>Fast 4WD</td><td>Octane</td></tr>
-			<tr><td>Dominus</td><td>Dominus</td></tr>
-			<tr><td>Dominus GT</td><td>Dominus</td></tr>
-			<tr><td>Ice Charger</td><td>Dominus</td></tr>
-			<tr><td>Aftershock</td><td>Dominus</td></tr>
-			<tr><td>Werewolf</td><td>Dominus</td></tr>
-			<tr><td>Masamune</td><td>Dominus</td></tr>
-			<tr><td>Rippe</td><td>Dominus</td></tr>
-			<tr><td>Hotshot</td><td>Dominus</td></tr>
-			<tr><td>Dodge Charger</td><td>Dominus</td></tr>
-			<tr><td>Imperator DT5</td><td>Dominus</td></tr>
-			<tr><td>'89 Batmobile</td><td>Dominus</td></tr>
-			<tr><td>Maverick (all)</td><td>Dominus</td></tr>
-			<tr><td>Gazella GT</td><td>Dominus</td></tr>
-			<tr><td>MR1</td><td>Dominus</td></tr>
-			<tr><td>Mantis</td><td>Plank</td></tr>
-			<tr><td>Paladin</td><td>Plank</td></tr>
-			<tr><td>Centio</td><td>Plank</td></tr>
-			<tr><td>Twin Mill</td><td>Plank</td></tr>
-			<tr><td>Batmobile</td><td>Batmobile</td></tr>
-			<tr><td>Breakout</td><td>Breakout</td></tr>
-			<tr><td>Breakout Type S</td><td>Breakout</td></tr>
-			<tr><td>Animus GP</td><td>Breakout</td></tr>
-			<tr><td>Samus</td><td>Breakout</td></tr>
-			<tr><td>Samurai</td><td>Breakout</td></tr>
-			<tr><td>Cyclone</td><td>Breakout</td></tr>
-			<tr><td>Venom</td><td>Hybrid</td></tr>
-			<tr><td>X-Devil</td><td>Hybrid</td></tr>
-			<tr><td>X-Devil MK2</td><td>Hybrid</td></tr>
-			<tr><td>Endo</td><td>Hybrid</td></tr>
-			<tr><td>Esper</td><td>Hybrid</td></tr>
-			<tr><td>Jäger 618 RS</td><td>Hybrid</td></tr>
-			<tr><td>Skyline GT-R</td><td>Hybrid</td></tr>
-			<tr><td>Nimbus</td><td>Hybrid</td></tr>
-			</tbody>
+
 		</table>
 	</body>
 </html>
-
-
