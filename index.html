@@ -12,7 +12,11 @@
 			$(document).ready( function () {
 				$.getJSON("hitboxes.json", function(result){
 						$.each(result, function(i, field){
-							$("table").append(field + " ");
+							$("#hitboxes").append("<tr>");
+							$.each(field, function(j, value){
+							  $("#hitboxes").append("<td>" + value + "</td>");
+							$("#hitboxes").append("</tr>");
+							});
 						});
 				});
     				// $('#hitboxes').DataTable();
