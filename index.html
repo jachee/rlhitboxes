@@ -9,21 +9,22 @@
 		<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 
 		<script>
-			$(document).ready( function () {
+			$(function () {
 				$.getJSON("hitboxes.json", function(allCars){
         	allCars.forEach(function(car){
             $("#target").append("<tr><td>" + car.model + "</td><td>" + car.hitbox + '</td></tr>');
         	});
+					$('#hitboxes').DataTable();
 				});
-    		$('#hitboxes').DataTable();
-			});
+		 });
 		</script>
 	</head>
 	<body>
 		<h1>Rocket League Hitboxes</h1>
 		<p id="description">This table shows which car has which hitbox.</p>
 		<table id="hitboxes" class="display" style="width: 75%">
-
+			<thead><th>Model</th><th>Hitbox</th></thead>
+			<tbody id="target"></tbody>
 		</table>
 	</body>
 </html>
