@@ -10,16 +10,12 @@
 
 		<script>
 			$(document).ready( function () {
-				$.getJSON("hitboxes.json", function(result){
-						$.each(result, function(i, field){
-							$("#hitboxes").append("<tr>");
-							$.each(field, function(j, value){
-							  $("#hitboxes").append("<td>" + value + "</td>");
-							$("#hitboxes").append("</tr>");
-							});
-						});
+				$.getJSON("hitboxes.json", function(allCars){
+        	allCars.forEach(function(car){
+            $("#target").append("<tr><td>" + car.model + "</td><td>" + car.hitbox + '</td></tr>');
+        	});
 				});
-    				// $('#hitboxes').DataTable();
+    		$('#hitboxes').DataTable();
 			});
 		</script>
 	</head>
