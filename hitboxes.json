@@ -38,6 +38,7 @@
 	{ "model" : "'89 Batmobile", "hitbox" : "Dominus"},
 	{ "model" : "Maverick (all)", "hitbox" : "Dominus"},
 	{ "model" : "Gazella GT", "hitbox" : "Dominus"},
+	{ "model" : "McLaren 570S", "hitbox" : "Dominus"},
 	{ "model" : "MR1", "hitbox" : "Dominus"},
 	{ "model" : "Mantis", "hitbox" : "Plank/Batmobile"},
 	{ "model" : "Paladin", "hitbox" : "Plank/Batmobile"},
