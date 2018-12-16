@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="A handy table of Rocket League Hitboxes">
-    <meta name="author" content="Jake Achée">
-		<title>Rocket League Hitboxes</title>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="A handy table of Rocket League Hitboxes">
+	<meta name="author" content="Jake Achée">
+	<title>Rocket League Hitboxes</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Latest compiled and minified CSS -->
@@ -18,65 +19,51 @@
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
-
-	<script>
-		$(function() {
-			$.getJSON("hitboxes.json", function(allCars) {
-				allCars.forEach(function(car) {
-					$("#target").append("<tr><td>" + car.model + "</td><td>" + car.hitbox + '</td></tr>');
-				});
-				$('#hitboxes').DataTable();
-			});
-		});
-	</script>
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>  <!-- LITERAL bars of the hamburger menu -->
+					<span class="icon-bar"></span> <!-- LITERAL bars of the hamburger menu -->
 					<span class="icon-bar"></span>
-        </button>
+				</button>
 				<a class="navbar-brand" href="index.html">RLHitBoxes.com</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </nav>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
 
-<div class="jumbotron text-center">
-	<h1>Rocket League Hitboxes</h1>
-	<p id="description">About this site</p>
-</div>
-<div class="container">
-	<p> I came up with the idea to make this site when I had trouble finding information
-		about which Rocket League battlecars had which hitboxes.  I sourced my information
-		from HalfwayDead's Spreadsheet.  It's <a href="https://onedrive.live.com/view.aspx?resid=F0182A0BAEBB5DFF!14583&ithint=file%2cxlsx&app=Excel&authkey=!ALu0cMkDZDoWOws">located here</a>.
-		His YouTube channel is <a href="https://youtube.com/rocketsciencerl">Rocket Science</a>.</p>
-	<p> The code for this site is available on github. </p>
-	<p> It uses the following technology:
-		<ul>
-			<li> JQuery </li>
-			<li> BootStrap </li>
-			<li> DataTables </li>
-		</ul>
-	</p>
-</div>
-<div class="text-center">
-	<p id="description"> Made by Jake Achée, AKA <a href="https://twitter.com/TempesztRL">Tempeszt</a>.</p>
-</div>
+	<div class="jumbotron text-center">
+		<h1>Rocket League Hitboxes</h1>
+		<p id="description">About this site</p>
+	</div>
+	<div class="container">
+		<p> I came up with the idea to make this site when I had trouble finding information
+			about which Rocket League battlecars had which hitboxes. I sourced my information
+			from HalfwayDead's Spreadsheet. It's <a href="https://onedrive.live.com/view.aspx?resid=F0182A0BAEBB5DFF!14583&ithint=file%2cxlsx&app=Excel&authkey=!ALu0cMkDZDoWOws" located here</a>. His YouTube channel is <a href="https://youtube.com/rocketsciencerl">Rocket
+				Science</a>.</p>
+		<p> The code for this site is available on github. </p>
+		<p> It uses the following technology:
+			<ul>
+				<li> JQuery </li>
+				<li> BootStrap </li>
+				<li> DataTables </li>
+			</ul>
+		</p>
+	</div>
+	<div class="text-center">
+		<p id="description"> Made by Jake Achée, AKA <a href="https://twitter.com/TempesztRL">Tempeszt</a>.</p>
+	</div>
 
 </body>
 
