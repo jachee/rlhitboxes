@@ -31,7 +31,7 @@
 	{ "model" : "Aftershock", "hitbox" : "Dominus"},
 	{ "model" : "Werewolf", "hitbox" : "Dominus"},
 	{ "model" : "Masamune", "hitbox" : "Dominus"},
-	{ "model" : "Rippe", "hitbox" : "Dominus"},
+	{ "model" : "Ripper", "hitbox" : "Dominus"},
 	{ "model" : "Hotshot", "hitbox" : "Dominus"},
 	{ "model" : "Dodge Charger", "hitbox" : "Dominus"},
 	{ "model" : "Imperator DT5", "hitbox" : "Dominus"},
