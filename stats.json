@@ -1,0 +1,47 @@
+[
+    {
+      "Preset": "Octane",
+      "Length": 118.01,
+      "Width": 84.2,
+      "Height": 36.16,
+      "Angle": -0.55,
+      "FrontHeight": 55.14,
+      "BackHeight": 56.28
+    },
+    {
+      "Preset": "Dominus",
+      "Length": 127.93,
+      "Width": 83.28,
+      "Height": 31.3,
+      "Angle": -0.96,
+      "FrontHeight": 47.22,
+      "BackHeight": 49.37
+    },
+    {
+      "Preset": "Batmobile",
+      "Length": 128.82,
+      "Width": 84.67,
+      "Height": 29.39,
+      "Angle": -0.34,
+      "FrontHeight": 45,
+      "BackHeight": 45.77
+    },
+    {
+      "Preset": "Breakout",
+      "Length": 131.49,
+      "Width": 80.52,
+      "Height": 30.3,
+      "Angle": -0.98,
+      "FrontHeight": 43.89,
+      "BackHeight": 46.13
+    },
+    {
+      "Preset": "Hybrid",
+      "Length": 127.02,
+      "Width": 82.19,
+      "Height": 34.16,
+      "Angle": -0.55,
+      "FrontHeight": 54.1,
+      "BackHeight": 55.32
+    }
+  ]
