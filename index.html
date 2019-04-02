@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="A handy table of Rocket League Hitboxes">
     <meta name="author" content="Jake Achée">
-		<title>Rocket League Hitboxes</title>
+		<title>Rocket League Hitboxes - rlhitboxes.com</title>
 	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Latest compiled and minified CSS -->
@@ -27,7 +27,7 @@
 		$(function() {
 			$.getJSON("hitboxes.json", function(allCars) {
 				allCars.forEach(function(car) {
-					$("#target").append("<tr><td>" + car.model + "</td><td>" + car.hitbox + '</td></tr>');
+					$("#target").append("<tr><td>" + car.model + '</td><td><a href="details.html">' + car.hitbox + '</a></td></tr>');
 				});
 				$('#hitboxes').DataTable();
 			});
