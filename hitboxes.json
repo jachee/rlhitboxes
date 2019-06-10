@@ -35,6 +35,8 @@
 	{ "model" : "Diestro", "hitbox" : "Dominus"},
 	{ "model" : "Hotshot", "hitbox" : "Dominus"},
 	{ "model" : "Guardian (all)", "hitbox" : "Dominus"},
+	{ "model" : "Ecto-1", "hitbox" : "Dominus"},
+	{ "model" : "KITT", "hitbox" : "Dominus"},
 	{ "model" : "Dodge Charger", "hitbox" : "Dominus"},
 	{ "model" : "Imperator DT5", "hitbox" : "Dominus"},
 	{ "model" : "'89 Batmobile", "hitbox" : "Dominus"},
