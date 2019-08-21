@@ -24,6 +24,7 @@
 	{ "model" : "Tumbler", "hitbox" : "Octane"},
 	{ "model" : "Sweet Tooth", "hitbox" : "Octane"},
 	{ "model" : "Jurassic Jeep", "hitbox" : "Octane"},
+	{ "model" : "Mudcat (all)", "hitbox" : "Octane"},
 	{ "model" : "Fast 4WD", "hitbox" : "Octane"},
 	{ "model" : "Fennec", "hitbox" : "Octane"},
 	{ "model" : "Dominus", "hitbox" : "Dominus"},
