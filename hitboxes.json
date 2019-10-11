@@ -54,6 +54,7 @@
 	{ "model" : "Twin Mill", "hitbox" : "Plank/Batmobile"},
 	{ "model" : "'16 Batmobile", "hitbox" : "Plank/Batmobile"},
 	{ "model" : "Artemis (all)", "hitbox" : "Plank/Batmobile"},
+	{ "model" : "Sentinel", "hitbox" : "Plank/Batmobile"},
 	{ "model" : "Breakout", "hitbox" : "Breakout"},
 	{ "model" : "Breakout Type S", "hitbox" : "Breakout"},
 	{ "model" : "Animus GP", "hitbox" : "Breakout"},
