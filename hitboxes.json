@@ -61,7 +61,7 @@
 	{ "model" : "Animus GP", "hitbox" : "Breakout"},
 	{ "model" : "Samus", "hitbox" : "Breakout"},
 	{ "model" : "Samurai", "hitbox" : "Breakout"},
-	{ "model" : "Cyclone", "hitbox" : "Breakout"},
+	{ "model" : "Komodo", "hitbox" : "Breakout"},
 	{ "model" : "Venom", "hitbox" : "Hybrid"},
 	{ "model" : "X-Devil", "hitbox" : "Hybrid"},
 	{ "model" : "X-Devil MK2", "hitbox" : "Hybrid"},
