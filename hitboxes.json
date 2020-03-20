@@ -49,6 +49,7 @@
 	{ "model" : "MR1", "hitbox" : "Dominus"},
 	{ "model" : "Nemesis", "hitbox" : "Dominus"},
 	{ "model" : "Chikara", "hitbox" : "Dominus"},
+	{ "model" : "Ronin", "hitbox" : "Dominus"},
 	{ "model" : "Mantis", "hitbox" : "Plank/Batmobile"},
 	{ "model" : "Paladin", "hitbox" : "Plank/Batmobile"},
 	{ "model" : "Centio", "hitbox" : "Plank/Batmobile"},
