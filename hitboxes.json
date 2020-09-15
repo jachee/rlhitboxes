@@ -5,7 +5,6 @@
 	{ "model" : "Takumi RX-T", "hitbox" : "Octane"},
 	{ "model" : "Marauder", "hitbox" : "Octane"},
 	{ "model" : "Scarab", "hitbox" : "Octane"},
-	{ "model" : "Merc", "hitbox" : "Octane"},
 	{ "model" : "Backfire", "hitbox" : "Octane"},
 	{ "model" : "Road Hog", "hitbox" : "Octane"},
 	{ "model" : "Road Hog XL", "hitbox" : "Octane"},
@@ -72,5 +71,6 @@
 	{ "model" : "Esper", "hitbox" : "Hybrid"},
 	{ "model" : "Jäger 618 RS", "hitbox" : "Hybrid"},
 	{ "model" : "Skyline GT-R", "hitbox" : "Hybrid"},
-	{ "model" : "Nimbus", "hitbox" : "Hybrid"}
+	{ "model" : "Nimbus", "hitbox" : "Hybrid"},
+	{ "model" : "Merc", "hitbox" : "Merc"}
 ]
