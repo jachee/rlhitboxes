@@ -36,6 +36,15 @@
       "BackHeight": 46.13
     },
     {
+      "Preset": "Merc",
+      "Length": 120.72,
+      "Width": 76.71,
+      "Height": 41.66,
+      "Angle": 0.28,
+      "FrontHeight": 60.76,
+      "BackHeight": 61.35
+    },
+    {
       "Preset": "Hybrid",
       "Length": 127.02,
       "Width": 82.19,
