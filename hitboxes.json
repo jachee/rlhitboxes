@@ -73,6 +73,7 @@
 	{ "model" : "Jäger 618 RS", "hitbox" : "Hybrid"},
 	{ "model" : "Skyline GT-R", "hitbox" : "Hybrid"},
 	{ "model" : "Nimbus", "hitbox" : "Hybrid"},
+	{ "model" : "Insidio", "hitbox" : "Hybrid"},
 	{ "model" : "Merc", "hitbox" : "Merc"},
 	{ "model" : "Battle Bus", "hitbox" : "Merc"}
 ]
