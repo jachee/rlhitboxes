@@ -74,6 +74,7 @@
 	{ "model" : "Skyline GT-R", "hitbox" : "Hybrid"},
 	{ "model" : "Nimbus", "hitbox" : "Hybrid"},
 	{ "model" : "Insidio", "hitbox" : "Hybrid"},
+	{ "model" : "R3MX", "hitbox" : "Hybrid"},
 	{ "model" : "Merc", "hitbox" : "Merc"},
 	{ "model" : "Battle Bus", "hitbox" : "Merc"}
 ]
