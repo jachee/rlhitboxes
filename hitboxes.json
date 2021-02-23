@@ -27,6 +27,7 @@
 	{ "model" : "Fast 4WD", "hitbox" : "Octane"},
 	{ "model" : "Fennec", "hitbox" : "Octane"},
 	{ "model" : "Harbinger", "hitbox" : "Octane"},
+	{ "model" : "Ford F-150 RLE", "hitbox" : "Octane"},
 	{ "model" : "Dominus", "hitbox" : "Dominus"},
 	{ "model" : "Dominus GT", "hitbox" : "Dominus"},
 	{ "model" : "Ice Charger", "hitbox" : "Dominus"},
@@ -75,6 +76,7 @@
 	{ "model" : "Nimbus", "hitbox" : "Hybrid"},
 	{ "model" : "Insidio", "hitbox" : "Hybrid"},
 	{ "model" : "R3MX", "hitbox" : "Hybrid"},
+	{ "model" : "Tygris", "hitbox" : "Hybrid"},
 	{ "model" : "Merc", "hitbox" : "Merc"},
 	{ "model" : "Battle Bus", "hitbox" : "Merc"}
 ]
