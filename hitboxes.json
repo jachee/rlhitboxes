@@ -64,6 +64,8 @@
 	{ "model" : "Formula 1&reg; 2021", "hitbox" : "Dominus"},
 	{ "model" : "007's Aston Martin Valhalla", "hitbox" : "Dominus"},
 	{ "model" : "BMW M240i", "hitbox" : "Dominus"},
+	{ "model" : "Maestro", "hitbox" : "Dominus"},
+	{ "model" : "Nissan Z Performance", "hitbox" : "Dominus"},
 	{ "model" : "Mantis", "hitbox" : "Plank/Batmobile"},
 	{ "model" : "Paladin", "hitbox" : "Plank/Batmobile"},
 	{ "model" : "Centio", "hitbox" : "Plank/Batmobile"},
@@ -91,5 +93,7 @@
 	{ "model" : "R3MX", "hitbox" : "Hybrid"},
 	{ "model" : "Tygris", "hitbox" : "Hybrid"},
 	{ "model" : "Merc", "hitbox" : "Merc"},
+	{ "model" : "Nomad", "hitbox" : "Merc"},
+	{ "model" : "Ford Bronco RLE", "hitbox" : "Merc"},
 	{ "model" : "Battle Bus", "hitbox" : "Merc"}
 ]
